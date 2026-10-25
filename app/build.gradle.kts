@@ -86,6 +86,13 @@ android {
 
         val commonMatchingFallbacks = listOf(release.name)
 
+        create("mod") {
+            initWith(release)
+            applicationIdSuffix = ".mod"
+            versionNameSuffix = "-mod"
+            matchingFallbacks.addAll(commonMatchingFallbacks)
+        }
+
         create("foss") {
             initWith(release)
 
@@ -126,9 +133,9 @@ android {
     splits {
         abi {
             isEnable = true
-            isUniversalApk = true
+            isUniversalApk = false
             reset()
-            include("armeabi-v7a", "arm64-v8a", "x86", "x86_64")
+            include("arm64-v8a")
         }
     }
 
