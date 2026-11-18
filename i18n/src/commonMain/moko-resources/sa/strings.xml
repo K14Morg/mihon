@@ -97,6 +97,7 @@
     <string name="action_asc">आरोहयतु</string>
     <string name="action_desc">अवारोहयतु</string>
     <string name="action_move_to_top">अग्रस्थानं चालयतु</string>
+	<string name="action_custom_title">स्वनिर्धारित शीर्षकम्</string>
     <string name="action_install">प्रतिष्ठापयतु</string>
     <string name="action_move_to_bottom">अधःस्थानं चालयतु</string>
     <string name="action_share">प्रसारयतु</string>

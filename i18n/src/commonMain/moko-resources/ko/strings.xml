@@ -761,6 +761,7 @@
     <string name="action_copy_link">링크 복사</string>
     <string name="action_display_unread_badge">읽지 않은 챕터</string>
     <string name="action_notes">노트</string>
+    <string name="action_custom_title">사용자 지정 제목</string>
     <string name="action_edit_notes">노트 편집</string>
     <string name="action_add_anyway">추가</string>
     <string name="onboarding_permission_crashlytics">크래시 로그 전송</string>

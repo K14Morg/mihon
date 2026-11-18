@@ -797,6 +797,7 @@
     <string name="author">Autore</string>
     <string name="artist">Artista</string>
     <string name="action_notes">Note</string>
+	<string name="action_custom_title">Titolo personalizzato</string>
     <string name="action_edit_notes">Modifica note</string>
     <string name="action_display_unread_badge">Capitoli non letti</string>
     <string name="action_toggle_private_off">Traccia pubblicamente</string>

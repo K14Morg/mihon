@@ -56,6 +56,7 @@
     <string name="action_display_download_badge">Преузета поглавља</string>
     <string name="action_cancel">Откажи</string>
     <string name="action_sort">Сортирај</string>
+	<string name="action_custom_title">Прилагођени наслов</string>
     <string name="action_install">Инсталирај</string>
     <string name="action_share">Подели</string>
     <string name="action_save">Сачувај</string>

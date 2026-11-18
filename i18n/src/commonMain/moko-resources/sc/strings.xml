@@ -809,6 +809,7 @@
     <string name="pref_mark_duplicate_read_chapter_read_new">A pustis de su recùperu de unu capìtulu</string>
     <string name="action_edit_notes">Modìfica notas</string>
     <string name="action_notes">Notas</string>
+	<string name="action_custom_title">Tìtulu personalizadu</string>
     <string name="notes_placeholder">M\'est agradadu cando…</string>
     <string name="pref_update_library_manga_titles">Annoa sos tìtulos de sos manga in sa biblioteca pro chi currispondant cun sa fonte</string>
     <string name="pref_update_library_manga_titles_summary">Dae cara: si unu manga mudat de nùmene, s\'at a bogare dae sa lista de iscarrigamentu (si b\'est).</string>

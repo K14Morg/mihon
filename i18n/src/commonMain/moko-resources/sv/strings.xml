@@ -814,6 +814,7 @@
     <string name="label_support_us">Stöd oss</string>
     <string name="action_display_unread_badge">Olästa kapitel</string>
     <string name="action_notes">Anteckningar</string>
+	<string name="action_custom_title">Anpassad titel</string>
     <string name="action_edit_notes">Redigera anteckningar</string>
     <string name="action_webview_close_tab">Stäng flik</string>
     <string name="theme_catppuccin">Catppuccin</string>

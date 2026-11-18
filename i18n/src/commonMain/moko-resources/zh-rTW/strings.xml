@@ -808,6 +808,7 @@
     <string name="pref_mark_duplicate_read_chapter_read_existing">閱讀完一章後</string>
     <string name="pref_mark_duplicate_read_chapter_read_new">獲取新章節後</string>
     <string name="action_notes">新增筆記</string>
+	<string name="action_custom_title">自訂標題</string>
     <string name="action_edit_notes">編輯筆記</string>
     <string name="notes_placeholder">我喜歡這段⋯</string>
     <string name="possible_duplicates_summary">您的書櫃有相似名稱的作品\n\n請選擇一個作品進行遷移或仍然新增</string>

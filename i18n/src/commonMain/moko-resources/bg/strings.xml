@@ -676,6 +676,7 @@
     <string name="not_selected">Не е избрано</string>
     <string name="pref_mark_duplicate_read_chapter_read">Маркирай дубликатите като прочетени</string>
     <string name="action_notes">Бележки</string>
+	<string name="action_custom_title">Персонализирано заглавие</string>
     <string name="action_edit_notes">Редактирай бележки</string>
     <string name="onboarding_action_next">Следващ</string>
     <string name="onboarding_guides_returning_user">Преинсталираш %s?</string>

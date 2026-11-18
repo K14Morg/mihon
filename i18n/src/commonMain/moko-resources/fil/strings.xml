@@ -809,6 +809,7 @@
     <string name="pref_mark_duplicate_read_chapter_read_new">Pagkatapos kumuha ng bagong kabanata</string>
     <string name="notes_placeholder">Masaya ang bahagi kung saan…</string>
     <string name="action_notes">Mga note</string>
+	<string name="action_custom_title">Pasadyang pamagat</string>
     <string name="action_edit_notes">I-edit ang mga note</string>
     <string name="possible_duplicates_title">Mga posibleng duplikado</string>
     <string name="possible_duplicates_summary">Mayroon kang mga entry sa iyong aklatan na may katulad na pangalan.\n\nPumili ng entry na ililipat o idaragdag pa rin.</string>

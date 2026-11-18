@@ -101,6 +101,7 @@
     <string name="action_reset">Ыраастаа</string>
     <string name="action_save">Хааллар</string>
     <string name="action_share">Тарҕат</string>
+	<string name="action_custom_title">Бэйэҥ оҥорбут аата</string>
     <string name="action_install">Туруор</string>
     <string name="action_move_to_bottom">Бүтүүгэ көһөр</string>
     <string name="action_move_to_top">Саҕаланыыга көһөр</string>
