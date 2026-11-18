@@ -1,3 +1,4 @@
+import java.io.File
 import com.android.build.api.variant.ApplicationVariant
 import com.android.build.api.variant.BuildConfigField
 import com.google.firebase.crashlytics.buildtools.gradle.CrashlyticsExtension
@@ -420,6 +421,21 @@ fun ApplicationVariant.buildConfigField(type: String, name: String, value: Provi
     buildConfigFields?.put(name, value.map { BuildConfigField(type, it, null) })
 }
 
+
+// Personal APK build counter.
+// The number is shared by all APK outputs produced during one Gradle invocation.
+val personalBuildCounterFile = layout.projectDirectory.file("../.build-counter").asFile
+val lastPersonalBuildNumber = personalBuildCounterFile
+    .takeIf { it.isFile }
+    ?.readLines()
+    ?.firstOrNull { it.trim().matches(Regex("""\d+""")) }
+    ?.trim()
+    ?.toIntOrNull()
+    ?: 14
+
+val personalBuildNumber = lastPersonalBuildNumber + 1
+val personalBuildLabel = personalBuildNumber.toString().padStart(3, '0')
+
 androidComponents {
     onVariants { variant ->
         val isUnstableBuild = variant.buildType == "debug" || variant.buildType == "nightly"
@@ -428,6 +444,14 @@ androidComponents {
         variant.buildConfigField("String", "COMMIT_COUNT", latestCommitCount.map { "\"$it\"" })
         variant.buildConfigField("String", "COMMIT_SHA", latestCommitSha.map { "\"$it\"" })
         variant.buildConfigField("String", "BUILD_TIME", buildTime.map { "\"$it\"" })
+
+        // Add the same personal build number to every APK output.
+        variant.outputs.forEach { output ->
+            val originalFileName = output.outputFileName.get()
+            output.outputFileName.set(
+                originalFileName.removeSuffix(".apk") + "-build-$personalBuildLabel.apk",
+            )
+        }
 
         if (isUnstableBuild) {
             variant.outputs.forEach { output ->
@@ -454,5 +478,30 @@ androidComponents {
         // Only excluding in standard flavor because this breaks
         // Layout Inspector's Compose tree
         it.packaging.resources.excludes.add("META-INF/*.version")
+    }
+}
+
+
+
+// Update the counter after successful APK assembly tasks.
+tasks.configureEach {
+    if (name.startsWith("assemble")) {
+        val counterPath = personalBuildCounterFile.absolutePath
+        val numberToSave = personalBuildNumber
+
+        doLast {
+            File(counterPath).writeText(
+                """
+                # Personal APK build counter.
+                # Stores the number of the last successfully completed APK build.
+                # All APK variants and ABI outputs from one Gradle invocation share one number.
+                $numberToSave
+                """.trimIndent() + "\n",
+            )
+
+            logger.lifecycle(
+                "Personal APK build number saved: build-${numberToSave.toString().padStart(3, '0')}",
+            )
+        }
     }
 }
