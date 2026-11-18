@@ -1,0 +1,4 @@
+# Personal APK build counter.
+# Stores the number of the last successfully completed APK build.
+# All APK variants and ABI outputs from one Gradle invocation share one number.
+14
