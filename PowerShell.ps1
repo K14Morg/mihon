@@ -23,6 +23,24 @@ $AndroidStudioExe = "C:\Program Files\Android\Android Studio\bin\studio64.exe"
 $ErrorActionPreference = "Stop"
 
 try {
+    # ============================================================
+    # UTF-8 CONSOLE CONFIGURATION
+    # ============================================================
+
+    # Set Windows console code page to UTF-8.
+    & chcp.com 65001 > $null
+
+    # Configure .NET console input and output.
+    $Utf8Encoding = [System.Text.UTF8Encoding]::new($false)
+
+    [Console]::InputEncoding = $Utf8Encoding
+    [Console]::OutputEncoding = $Utf8Encoding
+
+    # Configure encoding for data piped to native applications.
+    $OutputEncoding = $Utf8Encoding
+
+    # ============================================================
+
     # Determine project root from this script's location.
     $ProjectRoot = (Resolve-Path -LiteralPath $PSScriptRoot).Path
 
