@@ -450,6 +450,7 @@
     <string name="action_sort_chapter_fetch_date">Eskuratze data</string>
     <string name="action_move_to_top">Mugitu gora</string>
     <string name="action_move_to_bottom">Mugitu behera</string>
+	<string name="action_custom_title">Izenburu pertsonalizatua</string>
     <string name="action_install">Instalatu</string>
     <string name="action_share">Partekatu</string>
     <string name="action_save">Gorde</string>

@@ -92,6 +92,7 @@
     <string name="action_undo">Anuliuoti veiksmą</string>
     <string name="action_save">Išsaugoti</string>
     <string name="action_share">Dalintis</string>
+	<string name="action_custom_title">Pasirinktinis pavadinimas</string>
     <string name="action_install">Įdiegti</string>
     <string name="action_move_to_bottom">Kelti į apačią</string>
     <string name="action_move_to_top">Kelti į viršų</string>

@@ -627,6 +627,7 @@
     <string name="label_upcoming">আসন্ন</string>
     <string name="action_display_unread_badge">অপঠিত অধ্যায়</string>
     <string name="action_notes">নোটস</string>
+	<string name="action_custom_title">নিজস্ব শিরোনাম</string>
     <string name="action_edit_notes">নোট পরিবর্তন</string>
     <string name="action_webview_close_tab">ট্যাব বন্ধ</string>
     <string name="onboarding_storage_info">একটি ফোল্ডার নির্বাচন করুন যেখানে %1$s অধ্যায় ডাউনলোড, ব্যাকআপ এবং আরও কিছু সংরক্ষণ করবে।\n\nএকটি নির্দিষ্ট ফোল্ডার ব্যবহার করার পরামর্শ দেওয়া হচ্ছে।\n\nনির্বাচিত ফোল্ডার: %2$s</string>

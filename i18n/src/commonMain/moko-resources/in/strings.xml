@@ -805,6 +805,7 @@
     <string name="action_toggle_private_off">Lacak secara publik</string>
     <string name="action_edit_notes">Ubah catatan</string>
     <string name="action_notes">Catatan</string>
+	<string name="action_custom_title">Judul khusus</string>
     <string name="action_display_unread_badge">Chapter belum dibaca</string>
     <string name="theme_catppuccin">Catppuccin</string>
     <string name="pref_behavior">Perilaku</string>

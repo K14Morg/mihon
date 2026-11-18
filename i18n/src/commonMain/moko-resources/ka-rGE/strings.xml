@@ -60,6 +60,7 @@
     <string name="action_oldest">უძველესი</string>
     <string name="action_move_to_top">თავში ატანა</string>
     <string name="action_move_to_bottom">ბოლოში ჩამოტანა</string>
+	<string name="action_custom_title">მორგებული სათაური</string>
     <string name="action_install">დაინსტალირება</string>
     <string name="action_share">გაზიარება</string>
     <string name="action_save">შენახვა</string>

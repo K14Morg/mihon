@@ -808,6 +808,7 @@
     <string name="pref_mark_duplicate_read_chapter_read_new">Nach dem Abrufen eines neuen Kapitels</string>
     <string name="pref_mark_duplicate_read_chapter_read_existing">Nach dem Lesen eines Kapitels</string>
     <string name="action_notes">Notizen</string>
+	<string name="action_custom_title">Benutzerdefinierter Titel</string>
     <string name="action_edit_notes">Notizen bearbeiten</string>
     <string name="notes_placeholder">Mir gefiel der Teil, in dem…</string>
     <string name="possible_duplicates_title">Mögliche Duplikate</string>

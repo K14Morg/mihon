@@ -812,6 +812,7 @@
     <string name="migrationConfigScreen.selectEnabledLabel">இயக்கப்பட்ட ஆதாரங்களைத் தேர்ந்தெடுக்கவும்</string>
     <string name="migrationConfigScreen.continueButtonText">தொடரவும்</string>
     <string name="action_notes">குறிப்புகள்</string>
+	<string name="action_custom_title">தனிப்பயன் தலைப்பு</string>
     <string name="action_edit_notes">குறிப்புகளைத் திருத்து</string>
     <string name="theme_monochrome">ஒரே வண்ணமுடைய</string>
     <string name="pref_hide_missing_chapter_indicators">காணாமல் போன அத்தியாயம் குறிகாட்டிகளை மறைக்கவும்</string>

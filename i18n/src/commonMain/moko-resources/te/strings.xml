@@ -122,6 +122,7 @@
     <string name="pref_app_theme">అనువర్తన వీక్షణము</string>
     <string name="action_order_by_upload_date">ఎగుమతి తారీఖును బట్టి</string>
     <string name="action_desc">అవరోహికము</string>
+	<string name="action_custom_title">అనుకూల శీర్షిక</string>
     <string name="action_install">ప్రతిష్ఠాపించుము</string>
     <string name="action_undo">పూర్వ స్థితికి వెళ్ళుము</string>
     <string name="theme_monet">క్రియాశీలము</string>

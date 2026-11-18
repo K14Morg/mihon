@@ -356,6 +356,7 @@
     <string name="action_apply">Ужыць</string>
     <string name="action_ok">ОК</string>
     <string name="action_notes">Нататкі</string>
+	<string name="action_custom_title">Карыстальніцкая назва</string>
     <string name="action_move_to_bottom_all_for_series">Перамясціць серыю ў канец</string>
     <string name="action_edit_notes">Рэдагаваць нататкі</string>
     <string name="action_revert_to_default">Скінуць налады</string>

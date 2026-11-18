@@ -805,6 +805,7 @@
     <string name="action_display_unread_badge">Chapitres non lus</string>
     <string name="label_auto">Auto</string>
     <string name="action_notes">Notes</string>
+	<string name="action_custom_title">Titre personnalisé</string>
     <string name="action_edit_notes">Modifier les notes</string>
     <string name="clear_database_text">Vous êtes sur le point de supprimer des séries de la base de données</string>
     <string name="clear_database_history_warning">Les chapitres lus et la progression des séries hors bibliothèque seront perdus</string>

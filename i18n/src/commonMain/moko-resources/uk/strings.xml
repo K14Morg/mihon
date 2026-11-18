@@ -782,6 +782,7 @@
     <string name="theme_monochrome">Монохромний режим</string>
     <string name="pref_behavior">Поведінка</string>
     <string name="action_notes">Примітки</string>
+	<string name="action_custom_title">Власна назва</string>
     <string name="action_edit_notes">Редагувати примітки</string>
     <string name="action_display_unread_badge">Непрочитані розділи</string>
     <string name="pref_flash_style_white">Білий</string>

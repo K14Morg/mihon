@@ -97,6 +97,7 @@
     <string name="action_display_download_badge">Ladatut luvut</string>
     <string name="action_cancel">Peruuta</string>
     <string name="action_sort">Järjestä</string>
+	<string name="action_custom_title">Mukautettu nimike</string>
     <string name="action_install">Asenna</string>
     <string name="action_share">Jaa</string>
     <string name="action_save">Tallenna</string>

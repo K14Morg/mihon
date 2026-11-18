@@ -123,6 +123,7 @@
     <string name="action_asc">Në ngjitje</string>
     <string name="action_move_to_top">Lëvizni në krye</string>
     <string name="action_desc">Duke zbritur</string>
+	<string name="action_custom_title">Titull i personalizuar</string>
     <string name="action_install">Instaloni</string>
     <string name="action_close">Mbylle</string>
     <string name="action_move_to_top_all_for_series">Zhvendosni serinë në krye</string>

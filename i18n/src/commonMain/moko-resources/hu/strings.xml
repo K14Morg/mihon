@@ -789,6 +789,7 @@
     <string name="pref_mark_duplicate_read_chapter_read">Jelölje meg a duplikált olvasott fejezetet olvasottként</string>
     <string name="action_edit_notes">Jegyzetek szerkesztése</string>
     <string name="action_notes">Jegyzetek</string>
+	<string name="action_custom_title">Egyéni cím</string>
     <string name="pref_behavior">Viselkedés</string>
     <string name="pref_mark_duplicate_read_chapter_read_existing">Fejezet olvasása után</string>
     <string name="pref_flash_style_black">Fekete</string>

@@ -809,6 +809,7 @@
     <string name="pref_mark_duplicate_read_chapter_read_new">После получения новой главы</string>
     <string name="notes_placeholder">Понравилась часть, где…</string>
     <string name="action_notes">Заметки</string>
+	<string name="action_custom_title">Пользовательское название</string>
     <string name="action_edit_notes">Изменить заметки</string>
     <string name="possible_duplicates_title">Возможные дупликаты</string>
     <string name="possible_duplicates_summary">В вашей библиотеке есть серии с похожим названием.\n\nВыберите серию, чтобы её перенести, или же добавить как дупликат.</string>

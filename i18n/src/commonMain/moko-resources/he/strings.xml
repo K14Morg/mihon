@@ -716,6 +716,7 @@
     <string name="pref_onboarding_guide">מדריך התחלה</string>
     <string name="action_edit_notes">ערוך הערות</string>
     <string name="action_notes">הערות</string>
+	<string name="action_custom_title">כותרת מותאמת אישית</string>
     <string name="theme_nord">נורד</string>
     <string name="pref_mark_duplicate_read_chapter_read_existing">לאחר קריאה של אחד מהפרקים הכפולים</string>
     <string name="ext_remove">הסר</string>

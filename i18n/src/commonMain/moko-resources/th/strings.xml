@@ -794,6 +794,7 @@
     <string name="label_auto">อัตโนมัติ</string>
     <string name="action_display_unread_badge">ตอนที่ยังไม่ได้อ่าน</string>
     <string name="action_notes">โน้ต</string>
+	<string name="action_custom_title">ชื่อเรื่องที่กำหนดเอง</string>
     <string name="action_edit_notes">แก้ไขโน้ต</string>
     <string name="theme_catppuccin">แคทปุชชิน</string>
     <string name="theme_monochrome">โมโนโครม</string>

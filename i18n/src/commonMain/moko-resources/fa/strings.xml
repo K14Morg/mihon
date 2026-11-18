@@ -895,6 +895,7 @@
     <string name="author">نویسنده</string>
     <string name="donationCampaign.title">از برنامه لذت می‌برید؟</string>
     <string name="action_notes">یادداشت‌ها</string>
+	<string name="action_custom_title">عنوان سفارشی</string>
     <string name="wish_list">فهرست علاقه‌مندی‌</string>
     <string name="pref_cutout_mode">حالت بریدگی نمایشگر</string>
     <string name="pref_flash_with">فلاش با</string>

@@ -810,6 +810,7 @@
     <string name="pref_update_library_manga_titles_summary">चेतावनी: यदि माङ्गाको नाम परिवर्तन गरियो भने, यसलाई डाउनलोड सूचीबाट हटाइनेछ (यदि अवस्थित छ भने)।</string>
     <string name="logging_in">लग इन गर्दै…</string>
     <string name="action_notes">नोट</string>
+	<string name="action_custom_title">अनुकूलित शीर्षक</string>
     <string name="action_edit_notes">नोट सम्पादन गर्नुहोस्</string>
     <string name="action_display_unread_badge">नपढिएका अध्यायहरू</string>
     <string name="clear_database_history_warning">पुस्तकालयमा नभएका इन्ट्रीहरूको \"तपाईंले पढ्नुभएको अध्यायहरू र प्रगति\" हराउनेछ</string>
