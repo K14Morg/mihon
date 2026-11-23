@@ -557,7 +557,9 @@ class ReaderActivity : BaseActivity() {
         ReaderAppBars(
             visible = state.menuVisible,
 
-            mangaTitle = state.manga?.title,
+            mangaTitle = state.manga?.let { manga ->
+                manga.customTitle?.takeIf { it.isNotBlank() } ?: manga.title
+            },
             chapterTitle = state.currentChapter?.chapter?.name,
             navigateUp = onBackPressedDispatcher::onBackPressed,
             onClickTopAppBar = ::openMangaScreen,

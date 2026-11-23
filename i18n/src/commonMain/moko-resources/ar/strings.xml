@@ -786,6 +786,7 @@
     <string name="onboarding_permission_crashlytics_description">أرسل سجلات الخطأ للمطورين بشكل خفي.</string>
     <string name="onboarding_permission_analytics">السماح للتحليلات</string>
     <string name="action_notes">ملاحظات</string>
+	<string name="action_custom_title">عنوان مخصص</string>
     <string name="action_edit_notes">تعديل الملاحظات</string>
     <string name="action_display_unread_badge">فصول غير مقروءة</string>
     <string name="theme_monochrome">أحادي اللون</string>

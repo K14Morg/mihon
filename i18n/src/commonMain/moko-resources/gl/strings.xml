@@ -804,6 +804,7 @@
     <string name="notes_placeholder">Gustoume a parte na que…</string>
     <string name="pref_mark_duplicate_read_chapter_read">Marcar os capítulos duplicados como xa lidos</string>
     <string name="action_notes">Notas</string>
+	<string name="action_custom_title">Título personalizado</string>
     <string name="action_edit_notes">Editar notas</string>
     <string name="pref_behavior">Comportamento</string>
     <string name="pref_mark_duplicate_read_chapter_read_new">Ao obter capítulos novos</string>

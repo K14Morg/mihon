@@ -671,6 +671,7 @@
     <string name="pref_mark_duplicate_read_chapter_read_new">नया अध्याय प्राप्त करने के बाद</string>
     <string name="pref_mark_duplicate_read_chapter_read">डुप्लिकेट पढ़े गए अध्याय को पढ़ा हुआ मार्क करें</string>
     <string name="action_notes">टिप्पणियाँ</string>
+	<string name="action_custom_title">कस्टम शीर्षक</string>
     <string name="action_edit_notes">टिप्पणियाँ संपादित करें</string>
     <string name="ext_remove">हटाएँ</string>
     <string name="remove_private_extension_message">क्या आप वाकई \"%s\" एक्सटेंशन को हटाना चाहते हैं?</string>

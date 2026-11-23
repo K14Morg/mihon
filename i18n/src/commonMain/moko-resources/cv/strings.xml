@@ -592,6 +592,7 @@
     <string name="label_auto">Хӑй халлӗн</string>
     <string name="action_display_unread_badge">Вуламан сыпӑк</string>
     <string name="action_notes">Ҫырчӑк</string>
+	<string name="action_custom_title">Хăйăн ят</string>
     <string name="action_edit_notes">Ҫырчӑк улӑштар</string>
     <string name="theme_catppuccin">Кушак пуҫҫин</string>
     <string name="theme_monochrome">Пӗр тӗс</string>

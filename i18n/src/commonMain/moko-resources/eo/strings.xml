@@ -687,6 +687,7 @@
     <string name="fdroid_warning">Eldonoj ĉe F-Droid ne estas oficiale subtenataj.\nTuŝetu por ekscii pli.</string>
     <string name="label_auto">Aŭtomate</string>
     <string name="action_notes">Notoj</string>
+	<string name="action_custom_title">Propra titolo</string>
     <string name="action_edit_notes">Redakti notojn</string>
     <string name="action_display_unread_badge">Mallegi ĉapitron</string>
     <string name="theme_monochrome">Unukolora</string>

@@ -809,6 +809,7 @@
     <string name="pref_mark_duplicate_read_chapter_read_existing">Al terminar de leer un capítulo</string>
     <string name="action_edit_notes">Editar notas</string>
     <string name="action_notes">Notas</string>
+	<string name="action_custom_title">Título personalizado</string>
     <string name="notes_placeholder">Me gustó la parte en la que…</string>
     <string name="possible_duplicates_title">Posibles duplicados</string>
     <string name="possible_duplicates_summary">Ya tienes otras obras en tu biblioteca con ese mismo nombre.\n\nElige una de ellas para empezar la migración o añadirla sin más.</string>

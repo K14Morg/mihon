@@ -793,6 +793,7 @@
     <string name="confirm_tracker_update">トラッカーを章 %d に更新しますか？</string>
     <string name="library_exported">ライブラリをエクスポートしました</string>
     <string name="action_notes">ノート</string>
+	<string name="action_custom_title">カスタムタイトル</string>
     <string name="action_edit_notes">ノートを編集</string>
     <string name="export">エクスポート</string>
     <string name="pref_behavior">行動</string>

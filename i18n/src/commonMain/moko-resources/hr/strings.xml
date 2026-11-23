@@ -794,6 +794,7 @@
     <string name="label_auto">Automatski</string>
     <string name="action_display_unread_badge">Nepročitana poglavlja</string>
     <string name="action_notes">Bilješke</string>
+	<string name="action_custom_title">Prilagođeni naslov</string>
     <string name="action_edit_notes">Uredi bilješke</string>
     <string name="theme_catppuccin">Catppuccin</string>
     <string name="theme_monochrome">Jednobojno</string>

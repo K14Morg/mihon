@@ -808,6 +808,7 @@
     <string name="action_display_unread_badge">未读章节</string>
     <string name="pref_mark_duplicate_read_chapter_read_existing">读完一个章节后</string>
     <string name="action_notes">添加注释</string>
+	<string name="action_custom_title">自定义标题</string>
     <string name="action_edit_notes">编辑注释</string>
     <string name="notes_placeholder">标注你喜欢的部分…</string>
     <string name="possible_duplicates_summary">在你的书架中有一些名称相似的作品。\n\n请选择其中一个作品进行迁移或仍然新增。</string>

@@ -319,6 +319,7 @@
     <string name="action_ok">OK</string>
     <string name="action_move_to_bottom_all_for_series">Pindhah seri ka ngisor</string>
     <string name="action_notes">Cathetan</string>
+	<string name="action_custom_title">Judhul khusus</string>
     <string name="action_edit_notes">Ganti cathetan</string>
     <string name="action_revert_to_default">Mbalikake marang default</string>
     <string name="action_not_now">Ora saiki</string>

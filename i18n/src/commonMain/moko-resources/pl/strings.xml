@@ -793,6 +793,7 @@
     <string name="invalid_backup_file_json">Kopia zapasowa JSON nie jest wspierana</string>
     <string name="pref_incognito_mode_extension_summary">Wstrzymaj historię dla rozszerzenia</string>
     <string name="action_notes">Notatki</string>
+	<string name="action_custom_title">Własny tytuł</string>
     <string name="action_edit_notes">Edytuj notatki</string>
     <string name="action_webview_close_tab">Zamknij kartę</string>
     <string name="theme_monochrome">Monochromatyczny</string>

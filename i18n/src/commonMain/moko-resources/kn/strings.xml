@@ -35,6 +35,7 @@
     <string name="action_reset">ಮರುಹೊಂದಿಸಿ</string>
     <string name="action_save">ಉಳಿಸಿ</string>
     <string name="action_share">ಹಂಚಿಕೊಳ್ಳಿ</string>
+	<string name="action_custom_title">ಕಸ್ಟಮ್ ಶೀರ್ಷಿಕೆ</string>
     <string name="action_install">ಇನ್ಸ್ಟಾಲ್</string>
     <string name="action_move_to_bottom">ಕೆಳಕ್ಕೆ ಸರಿಸಿ</string>
     <string name="action_move_to_top">ಮೇಲಕ್ಕೆ ಸರಿಸಿ</string>

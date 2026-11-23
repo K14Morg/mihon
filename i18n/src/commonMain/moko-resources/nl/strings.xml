@@ -788,6 +788,7 @@
     <string name="pref_behavior">Gedrag</string>
     <string name="pref_mark_duplicate_read_chapter_read_new">Na het ophalen van een nieuw hoofdstuk</string>
     <string name="action_notes">Notities</string>
+	<string name="action_custom_title">Aangepaste titel</string>
     <string name="action_edit_notes">Notities bewerken</string>
     <string name="pref_mark_duplicate_read_chapter_read">Duplicaat gelezen hoofdstuk als gelezen markeren</string>
     <string name="action_display_unread_badge">Ongelezen hoofdstukken</string>
