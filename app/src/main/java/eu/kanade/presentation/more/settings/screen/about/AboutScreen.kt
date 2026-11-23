@@ -268,7 +268,12 @@ fun getVersionName(buildTime: String?): String {
         }
         else -> {
             val channel = if (isFossBuildType) "FOSS" else "Stable"
-            "$channel v${BuildConfig.VERSION_NAME}".let {
+            val buildNumberSuffix = if (BuildConfig.BUILD_TYPE == "mod") {
+                "-build-${BuildConfig.PERSONAL_BUILD_NUMBER}"
+            } else {
+                ""
+            }
+            "$channel v${BuildConfig.VERSION_NAME}$buildNumberSuffix".let {
                 if (buildTime != null) {
                     "$it ($buildTime)"
                 } else {

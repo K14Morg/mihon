@@ -445,6 +445,12 @@ androidComponents {
         variant.buildConfigField("String", "COMMIT_COUNT", latestCommitCount.map { "\"$it\"" })
         variant.buildConfigField("String", "COMMIT_SHA", latestCommitSha.map { "\"$it\"" })
         variant.buildConfigField("String", "BUILD_TIME", buildTime.map { "\"$it\"" })
+        val personalBuildNumberForVariant = if (variant.buildType == "mod") personalBuildLabel else ""
+        variant.buildConfigField(
+            "String",
+            "PERSONAL_BUILD_NUMBER",
+            providers.provider { "\"$personalBuildNumberForVariant\"" },
+        )
 
         // Add the same personal build number to every APK output.
         variant.outputs.forEach { output ->
